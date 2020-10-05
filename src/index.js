@@ -1,6 +1,8 @@
-import '../css/input-elements.css'
-import '../css/main.css'
-import {secretButton, secretParagraph} from './dom-loader'
+import './css/input-elements.css'
+import './css/main.css'
+
+alert('true')
+import {secretButton, secretParagraph} from './js/dom-loader'
 var showSecret = false;
 
 secretButton.addEventListener('click', toggleSecretState);
